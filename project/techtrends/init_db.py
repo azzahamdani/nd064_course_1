@@ -32,5 +32,7 @@ cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
             ('Kubernetes Certification', 'CNCF, along with the Linux Foundation, have created certification programs for Kubernetes as well as training for CNCF projects Prometheus and Fluentd.')
             )
 
+cur.execute("INSERT INTO counts (connectioncount) VALUES (1)")
+
 connection.commit()
 connection.close()

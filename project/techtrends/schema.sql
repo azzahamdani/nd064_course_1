@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS posts;
+DROP TABLE IF EXISTS counts;
 
 CREATE TABLE posts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -6,3 +7,8 @@ CREATE TABLE posts (
     title TEXT NOT NULL,
     content TEXT NOT NULL
 );
+
+CREATE TABLE counts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    connectioncount INTEGER
+)
