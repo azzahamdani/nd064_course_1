@@ -21,3 +21,8 @@ To run this application there are 2 steps required:
 [x] Dockerfile
 [x] Docker commands 
 [x] Docker-Run-Local screenshot
+
+# Step3 Continuous Integration with GitHub Actions
+[] Workflow techtrends-dockerhub.yml
+[] CI-github-action screenshot
+[] CI-dockerhub screenshot
