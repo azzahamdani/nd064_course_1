@@ -22,3 +22,7 @@
 [x] kubernetes manifests
 [x] Deploy Kubernetes Manifests
 [x] Kubernetes-Declarative-Manifests screenshot
+
+# Step 5 Helm Charts
+[x] Helm Charts
+[x] Input Values for Staging and Prod
