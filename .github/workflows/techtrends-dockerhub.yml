@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./project/Dockerfile
           push: true
-          tags: user/app:latest
+          tags: zoeid/techtrends:latest
