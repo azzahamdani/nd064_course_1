@@ -21,6 +21,11 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Whoami
+        run: |
+          pwd
+          ls -la
       -
         name: Build and push
         id: docker_build
